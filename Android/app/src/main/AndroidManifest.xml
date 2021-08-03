@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proiectdam">
+<uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".home.LoginActivity"
+            android:screenOrientation="portrait">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+        <activity android:name=".home.MeniuActivity" android:screenOrientation="portrait">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
+
+        </activity>
+        <activity android:name=".home.MainActivity" android:screenOrientation="portrait">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+
+        <activity android:name=".plati.PlatiActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Note.NoteActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".restante.RestanteActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".examene.ExameneActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Note.AdaugareNota" android:screenOrientation="portrait"/>
+        <activity android:name=".plati.AdaugarePlata" android:screenOrientation="portrait"/>
+        <activity android:name=".informatii.InformatiiActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".home.RegisterActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".home.ProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".examene.AdaugareAssignment" android:screenOrientation="portrait"/>
+        <activity android:name=".Note.BarChartActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Materii.MateriiActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Materii.AdaugareMaterie" android:screenOrientation="portrait"/>
+        <activity android:name=".Materii.BarChartActivity2" android:screenOrientation="portrait"/>
+
+
+    </application>
+
+</manifest>
